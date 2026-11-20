@@ -106,7 +106,7 @@ rag-langchain/
 ### 1. Clone and create environment
 
 ```bash
-git clone https://github.com/niltonPegass/rag-langchain.git
+git clone https://github.com/NaoufalBgit/rag-ollama-langchain.git
 cd rag-langchain
 python3.11 -m venv .venv
 source .venv/bin/activate
