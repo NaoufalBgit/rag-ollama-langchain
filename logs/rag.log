@@ -1,0 +1,9 @@
+16:50:30 | INFO     | __main__ | Starting RAG chain (Phase 1) — model=llama3.2
+16:50:30 | INFO     | src.vectorstore | Retraining requested — clearing vector store directory /Users/naoufal/Desktop/Projects/rag_ollama_langchain-main/vectorstore...
+16:50:31 | INFO     | src.vectorstore | Vector store is empty — indexing documents...
+16:50:31 | INFO     | src.loader | Loaded PDF: Naoufal_Benamar.pdf (1 pages)
+16:50:31 | INFO     | src.loader | Loaded TXT: about_me.txt (1 documents)
+16:50:31 | INFO     | src.loader | Total: 2 pages/documents loaded from /Users/naoufal/Desktop/Projects/rag_ollama_langchain-main/docs
+16:50:31 | INFO     | src.loader | Split into 12 chunks (size=500, overlap=50)
+16:50:31 | INFO     | src.vectorstore | Indexed 12 chunks and persisted to /Users/naoufal/Desktop/Projects/rag_ollama_langchain-main/vectorstore
+16:50:31 | INFO     | src.chain | RAG chain ready — model=llama3.2

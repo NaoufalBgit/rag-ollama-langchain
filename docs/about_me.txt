@@ -1,0 +1,8 @@
+Name: Naoufal Benamar
+Age: 24
+Profession: Data Scientist
+Education: Computer Science Engineering
+Specialization: Data Science and Generative AI
+Location: Paris, France
+Interests: Artificial Intelligence, Software Development, Technology
+Career Goal: Data Scientist
