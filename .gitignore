@@ -12,3 +12,4 @@ __pycache__/
 
 # Langflow local data
 langflow_data/
+vectorstore/
