@@ -1,1 +1,14 @@
 langflow_data/
+
+# Python virtual environments
+.venv/
+.venv_old/
+.venv_python315/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Langflow local data
+langflow_data/

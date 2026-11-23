@@ -7,3 +7,95 @@
 16:50:31 | INFO     | src.loader | Split into 12 chunks (size=500, overlap=50)
 16:50:31 | INFO     | src.vectorstore | Indexed 12 chunks and persisted to /Users/naoufal/Desktop/Projects/rag_ollama_langchain-main/vectorstore
 16:50:31 | INFO     | src.chain | RAG chain ready — model=llama3.2
+00:47:00 | INFO     | __main__ | Starting RAG agent (Phase 2) — model=llama3.2
+00:47:00 | INFO     | src.vectorstore | Retraining requested — clearing vector store directory /Users/naoufal/Desktop/Projects/rag_ollama_langchain/vectorstore...
+00:47:00 | INFO     | src.vectorstore | Vector store is empty — indexing documents...
+00:47:00 | INFO     | src.loader | Loaded PDF: Naoufal_Benamar.pdf (1 pages)
+00:47:00 | INFO     | src.loader | Loaded TXT: about_me.txt (1 documents)
+00:47:00 | INFO     | src.loader | Total: 2 pages/documents loaded from /Users/naoufal/Desktop/Projects/rag_ollama_langchain/docs
+00:47:00 | INFO     | src.loader | Split into 12 chunks (size=500, overlap=50)
+00:47:01 | INFO     | src.vectorstore | Indexed 12 chunks and persisted to /Users/naoufal/Desktop/Projects/rag_ollama_langchain/vectorstore
+00:47:01 | INFO     | src.retriever | Retriever ready — k=6, threshold=0.2
+00:47:01 | INFO     | src.agent | Agent compiled — model=llama3.2, max_retries=2
+00:47:38 | INFO     | src.agent | [retriever] 6 chunks above threshold
+00:47:41 | INFO     | src.agent | [generator] answer generated
+00:47:54 | INFO     | src.agent | [retriever] 6 chunks above threshold
+00:47:55 | INFO     | src.agent | [generator] answer generated
+00:48:08 | INFO     | src.agent | [retriever] 0 chunks above threshold
+00:48:08 | INFO     | src.agent | [router] no chunks found → retrying
+00:48:08 | INFO     | src.agent | [retriever] 0 chunks above threshold
+00:48:08 | WARNING  | src.agent | [router] no chunks after 2 attempts → fallback
+00:48:08 | WARNING  | src.agent | [fallback] no relevant chunks after 2 attempts
+00:49:57 | INFO     | src.agent | [retriever] 0 chunks above threshold
+00:49:57 | INFO     | src.agent | [router] no chunks found → retrying
+00:49:57 | INFO     | src.agent | [retriever] 0 chunks above threshold
+00:49:57 | WARNING  | src.agent | [router] no chunks after 2 attempts → fallback
+00:49:57 | WARNING  | src.agent | [fallback] no relevant chunks after 2 attempts
+00:50:13 | INFO     | __main__ | Starting RAG agent (Phase 2) — model=llama3.2
+00:50:13 | INFO     | src.vectorstore | Retraining requested — clearing vector store directory /Users/naoufal/Desktop/Projects/rag_ollama_langchain/vectorstore...
+00:50:13 | INFO     | src.vectorstore | Vector store is empty — indexing documents...
+00:50:13 | INFO     | src.loader | Loaded PDF: Naoufal_Benamar.pdf (1 pages)
+00:50:13 | INFO     | src.loader | Loaded TXT: about_me.txt (1 documents)
+00:50:13 | INFO     | src.loader | Total: 2 pages/documents loaded from /Users/naoufal/Desktop/Projects/rag_ollama_langchain/docs
+00:50:13 | INFO     | src.loader | Split into 12 chunks (size=500, overlap=50)
+00:50:13 | INFO     | src.vectorstore | Indexed 12 chunks and persisted to /Users/naoufal/Desktop/Projects/rag_ollama_langchain/vectorstore
+00:50:13 | INFO     | src.retriever | Retriever ready — k=6, threshold=0.2
+00:50:13 | INFO     | src.agent | Agent compiled — model=llama3.2, max_retries=2
+00:50:31 | INFO     | src.agent | [retriever] 6 chunks above threshold
+00:50:31 | INFO     | src.agent | [generator] answer generated
+00:50:37 | INFO     | src.agent | [retriever] 6 chunks above threshold
+00:50:37 | INFO     | src.agent | [generator] answer generated
+00:50:44 | INFO     | src.agent | [retriever] 0 chunks above threshold
+00:50:44 | INFO     | src.agent | [router] no chunks found → retrying
+00:50:44 | INFO     | src.agent | [retriever] 0 chunks above threshold
+00:50:44 | WARNING  | src.agent | [router] no chunks after 2 attempts → fallback
+00:50:44 | WARNING  | src.agent | [fallback] no relevant chunks after 2 attempts
+11:39:32 | INFO     | src.agent | [retriever] 0 chunks above threshold
+11:39:32 | INFO     | src.agent | [router] no chunks found → retrying
+11:39:32 | INFO     | src.agent | [retriever] 0 chunks above threshold
+11:39:32 | WARNING  | src.agent | [router] no chunks after 2 attempts → fallback
+11:39:32 | WARNING  | src.agent | [fallback] no relevant chunks after 2 attempts
+14:49:44 | INFO     | __main__ | Starting RAG agent (Phase 2) — model=llama3.2
+14:49:44 | INFO     | src.vectorstore | Retraining requested — clearing vector store directory /Users/naoufal/Desktop/Projects/rag_ollama_langchain/vectorstore...
+14:49:44 | INFO     | src.vectorstore | Vector store is empty — indexing documents...
+14:49:44 | INFO     | src.loader | Loaded PDF: Naoufal_Benamar.pdf (1 pages)
+14:49:44 | INFO     | src.loader | Loaded TXT: about_me.txt (1 documents)
+14:49:44 | INFO     | src.loader | Total: 2 pages/documents loaded from /Users/naoufal/Desktop/Projects/rag_ollama_langchain/docs
+14:49:44 | INFO     | src.loader | Split into 12 chunks (size=500, overlap=50)
+14:49:45 | INFO     | src.vectorstore | Indexed 12 chunks and persisted to /Users/naoufal/Desktop/Projects/rag_ollama_langchain/vectorstore
+14:49:45 | INFO     | src.retriever | Retriever ready — k=6, threshold=0.2
+14:49:45 | INFO     | src.agent | Agent compiled — model=llama3.2, max_retries=2
+14:49:55 | INFO     | src.agent | [retriever] 0 chunks above threshold
+14:49:55 | INFO     | src.agent | [router] no chunks found → retrying
+14:49:55 | INFO     | src.agent | [retriever] 0 chunks above threshold
+14:49:55 | WARNING  | src.agent | [router] no chunks after 2 attempts → fallback
+14:49:55 | WARNING  | src.agent | [fallback] no relevant chunks after 2 attempts
+14:50:05 | INFO     | src.agent | [retriever] 0 chunks above threshold
+14:50:05 | INFO     | src.agent | [router] no chunks found → retrying
+14:50:05 | INFO     | src.agent | [retriever] 0 chunks above threshold
+14:50:05 | WARNING  | src.agent | [router] no chunks after 2 attempts → fallback
+14:50:05 | WARNING  | src.agent | [fallback] no relevant chunks after 2 attempts
+14:51:59 | INFO     | src.agent | [retriever] 5 chunks above threshold
+14:52:02 | INFO     | src.agent | [generator] answer generated
+14:52:09 | INFO     | src.agent | [retriever] 2 chunks above threshold
+14:52:10 | INFO     | src.agent | [generator] answer generated
+14:52:23 | INFO     | src.agent | [retriever] 6 chunks above threshold
+14:52:28 | INFO     | src.agent | [generator] answer generated
+14:52:44 | INFO     | src.agent | [retriever] 1 chunks above threshold
+14:52:44 | INFO     | src.agent | [generator] answer generated
+14:52:55 | INFO     | src.agent | [retriever] 3 chunks above threshold
+14:52:56 | INFO     | src.agent | [generator] answer generated
+14:53:06 | INFO     | src.agent | [retriever] 3 chunks above threshold
+14:53:06 | INFO     | src.agent | [generator] answer generated
+14:54:08 | INFO     | src.agent | [retriever] 6 chunks above threshold
+14:54:09 | INFO     | src.agent | [generator] answer generated
+14:54:42 | INFO     | src.agent | [retriever] 6 chunks above threshold
+14:54:43 | INFO     | src.agent | [generator] answer generated
+14:54:54 | INFO     | src.agent | [retriever] 6 chunks above threshold
+14:54:55 | INFO     | src.agent | [generator] answer generated
+14:55:22 | INFO     | src.agent | [retriever] 6 chunks above threshold
+14:55:24 | INFO     | src.agent | [generator] answer generated
+14:55:32 | INFO     | src.agent | [retriever] 6 chunks above threshold
+14:55:33 | INFO     | src.agent | [generator] answer generated
+14:55:43 | INFO     | src.agent | [retriever] 6 chunks above threshold
+14:55:44 | INFO     | src.agent | [generator] answer generated

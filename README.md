@@ -6,15 +6,15 @@ All inference runs **locally** via Ollama - no OpenAI API key or cloud costs req
 
 ## LangFlow
 <p align="center">
-  <a href="https://github.com/niltonPegass/rag_ollama_langchain" target="_blank">
+  <a href="https://github.com/NaoufalBgit/rag_ollama_langchain" target="_blank">
     <img src="images/langflow.png">
   </a>
 </p>
 
 ## LangSmith
 <p align="center">
-  <a href="https://github.com/niltonPegass/rag_ollama_langchain" target="_blank">
-    <img src="images/langsmith_2.png">
+  <a href="https://github.com/NaoufalBgit/rag_ollama_langchain" target="_blank">
+    <img src="images/langsmith_details.png">
   </a>
 </p>
 
@@ -59,7 +59,7 @@ Same pipeline reproduced via drag-and-drop interface
 ## Project structure
 
 ```
-rag-langchain/
+rag-ollama-langchain/
 ├── docs/
 │   ├── personal/           ← documents with personal/profile data
 │   └── youtube/            ← summaries of YouTube video examples
@@ -99,7 +99,7 @@ rag-langchain/
 
 ### Prerequisites
 
-- Python 3.11+
+- Python 3.14+
 - [Ollama](https://ollama.com) installed and running
 - Docker (for Langflow)
 
@@ -107,8 +107,8 @@ rag-langchain/
 
 ```bash
 git clone https://github.com/NaoufalBgit/rag-ollama-langchain.git
-cd rag-langchain
-python3.11 -m venv .venv
+cd rag-ollama-langchain
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -128,7 +128,7 @@ Create a `.env` file:
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 LANGCHAIN_API_KEY=your_key_here
-LANGCHAIN_PROJECT=rag-langchain
+LANGCHAIN_PROJECT=rag-ollama-langchain
 ```
 
 ### 4. Add documents
