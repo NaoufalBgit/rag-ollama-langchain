@@ -60,10 +60,8 @@ Same pipeline reproduced via drag-and-drop interface
 
 ```
 rag-ollama-langchain/
-├── docs/
-│   ├── personal/           ← documents with personal/profile data
-│   └── youtube/            ← summaries of YouTube video examples
-├── images/                 ← project screenshots and demo videos
+├── docs/                   ← documents with personal/profile data
+├── images/                 ← project screenshots
 ├── notes/                  ← learning guides and project documentation
 ├── flows/
 │   └── rag_ollama_langchain.json  ← exported Langflow pipeline
@@ -125,10 +123,10 @@ ollama pull nomic-embed-text
 Create a `.env` file:
 
 ```env
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
-LANGCHAIN_API_KEY=your_key_here
-LANGCHAIN_PROJECT=rag-ollama-langchain
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=YOUR_LANGSMITH_API_KEY
+LANGSMITH_PROJECT=rag-ollama-langchain
 ```
 
 ### 4. Add documents
